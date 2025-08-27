@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/estilos.css">
+    <title>seudocodigo</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Inventario de Productos</h1>
+        <button class="btn btn-añadir " id="btn-añadir">Añadir Producto</button>
+
+        <div class="modal" id="modal">
+            <div class="modal-content">
+                <button class="btn btn-close" id="btn-close">X</button>
+                <h2 id="modal-title">Registrar Nuevo Elemento</h2>
+                <form id="formularioRegistro" class="form" data-mode="add">
+
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre">
+
+                    <label for="precio">Precio:</label>
+                    <input type="text" id="precio">
+
+                    <label for="stock">Stock:</label>
+                    <input type="text" id="stock">
+                    <button type="submit" class="btn btn-agregar" id="submit-btn">Guardar</button>
+
+                </form>
+            </div>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Precio</th>
+                    <th>Stock</th>
+                    <th>Accion</th>
+                </tr>
+            </thead>
+            <tbody id="product-table-body">
+            </tbody>
+        </table>
+
+        <div class="pagination-container">
+            <button id="prev-page" class="btn">Anterior</button>
+            <div id="page-numbers" class="page-numbers"></div>
+            <button id="next-page" class="btn">Siguiente</button>
+        </div>
+    </div>
+
+
+
+
+
+    <script type="module" src="js/index.js"></script>
+</body>
+
+</html>

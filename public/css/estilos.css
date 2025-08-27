@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.container {
+    margin-top: 50px;
+
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+th,
+td {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+thead {
+    background-color: #233b24;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+.btn {
+    padding: 5px 10px;
+    color: #ddd;
+    margin-left: 5px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.btn-update {
+    background-color: #c0cc14;
+    
+}
+
+.btn-update:hover {
+    background-color: #818a0c;
+}
+
+.btn-delete {
+    background-color: #e06818;
+}
+
+.btn-delete:hover {
+    background-color: #7a390e;
+}
+
+.btn-añadir, .btn-agregar {
+    margin-top: 20px;
+    background-color: #233b24;
+}
+
+.btn-close {
+    background-color: #233b24;
+}
+
+.form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 10px auto; /* Centra el modal */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+}
+
+.modal-content h2 {
+    margin-top: 20px;
+}
+
+#formularioRegistro label,
+#formularioRegistro input {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 10px;
+    padding: 10px;
+    outline: none;  
+}
+
+#formularioRegistro input {
+    border: 1px solid #888888;
+    border-radius: 10px;
+}
+
+.modal {
+    display: none;
+}
+
+/* Contenedor de la paginación */
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px; /* Espacio entre elementos */
+}
+
+/* Estilos base para todos los botones de paginación */
+.pagination-container .btn {
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    background-color: #233b24;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+/* Estado al pasar el cursor (hover) */
+.pagination-container .btn:not(.active):hover {
+    background-color: #4b7e4d;
+    border-color: #bbb;
+}
+
+/* Estilo para los botones deshabilitados (Anterior/Siguiente) */
+.pagination-container .btn:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+    background-color: #f1f1f1;
+}
+
+/* Contenedor de los números de página */
+.page-numbers {
+    display: flex;
+    gap: 5px; /* Espacio entre los números */
+}
+
+/* Estilo para el botón de la página activa */
+.page-numbers .page-btn.active {
+    background-color: #4b7e4d; /* Un color azul llamativo */
+    color: white;
+    border-color: #233b24;
+    font-weight: bold;
+}
+
+/* Transiciones para los botones */
+.page-numbers .page-btn {
+    transition: all 0.2s ease-in-out;
+}

@@ -1,0 +1,596 @@
+[
+  {
+    "id": 2,
+    "nombre": "Destornillador Phillips",
+    "precio": 17.91,
+    "stock": 45
+  },
+  {
+    "id": 3,
+    "nombre": "Llave inglesa ajustable",
+    "precio": 101.23,
+    "stock": 42
+  },
+  {
+    "id": 4,
+    "nombre": "Sierra de mano",
+    "precio": 185.11,
+    "stock": 26
+  },
+  {
+    "id": 5,
+    "nombre": "Clavos de acero",
+    "precio": 83.73,
+    "stock": 29
+  },
+  {
+    "id": 6,
+    "nombre": "Tornillos para madera",
+    "precio": 76.32,
+    "stock": 2
+  },
+  {
+    "id": 7,
+    "nombre": "Taladro percutor",
+    "precio": 111.03,
+    "stock": 27
+  },
+  {
+    "id": 8,
+    "nombre": "Cinta métrica",
+    "precio": 31.91,
+    "stock": 14
+  },
+  {
+    "id": 9,
+    "nombre": "Nivel de burbuja",
+    "precio": 159.23,
+    "stock": 13
+  },
+  {
+    "id": 10,
+    "nombre": "Alicate de corte",
+    "precio": 187.18,
+    "stock": 5
+  },
+  {
+    "id": 11,
+    "nombre": "Escuadra de metal",
+    "precio": 137.26,
+    "stock": 23
+  },
+  {
+    "id": 12,
+    "nombre": "Lija para madera",
+    "precio": 74.59,
+    "stock": 27
+  },
+  {
+    "id": 13,
+    "nombre": "Brocas para metal",
+    "precio": 99.66,
+    "stock": 17
+  },
+  {
+    "id": 14,
+    "nombre": "Cerradura de seguridad",
+    "precio": 162.46,
+    "stock": 0
+  },
+  {
+    "id": 15,
+    "nombre": "Candado de latón",
+    "precio": 75.56,
+    "stock": 10
+  },
+  {
+    "id": 16,
+    "nombre": "Pegamento epoxi",
+    "precio": 111.37,
+    "stock": 34
+  },
+  {
+    "id": 17,
+    "nombre": "Sellador de silicona",
+    "precio": 136.87,
+    "stock": 38
+  },
+  {
+    "id": 18,
+    "nombre": "Tubo de PVC",
+    "precio": 78.11,
+    "stock": 3
+  },
+  {
+    "id": 19,
+    "nombre": "Conexión para manguera",
+    "precio": 66.72,
+    "stock": 42
+  },
+  {
+    "id": 20,
+    "nombre": "Masilla para pared",
+    "precio": 156.5,
+    "stock": 33
+  },
+  {
+    "id": 21,
+    "nombre": "Pintura blanca",
+    "precio": 14.37,
+    "stock": 32
+  },
+  {
+    "id": 22,
+    "nombre": "Brocha para pintar",
+    "precio": 6.95,
+    "stock": 10
+  },
+  {
+    "id": 23,
+    "nombre": "Rodillo de espuma",
+    "precio": 160.48,
+    "stock": 25
+  },
+  {
+    "id": 24,
+    "nombre": "Guantes de trabajo",
+    "precio": 39.74,
+    "stock": 37
+  },
+  {
+    "id": 25,
+    "nombre": "Gafas de seguridad",
+    "precio": 159.57,
+    "stock": 45
+  },
+  {
+    "id": 26,
+    "nombre": "Casco de construcción",
+    "precio": 5.38,
+    "stock": 17
+  },
+  {
+    "id": 27,
+    "nombre": "Cutter",
+    "precio": 119.47,
+    "stock": 39
+  },
+  {
+    "id": 28,
+    "nombre": "Cinta aislante",
+    "precio": 55.45,
+    "stock": 40
+  },
+  {
+    "id": 29,
+    "nombre": "Arandelas surtidas",
+    "precio": 40.66,
+    "stock": 46
+  },
+  {
+    "id": 30,
+    "nombre": "Tuercas hexagonales",
+    "precio": 86.82,
+    "stock": 29
+  },
+  {
+    "id": 31,
+    "nombre": "Remaches de aluminio",
+    "precio": 11.13,
+    "stock": 5
+  },
+  {
+    "id": 32,
+    "nombre": "Pistola de calor",
+    "precio": 116.12,
+    "stock": 33
+  },
+  {
+    "id": 33,
+    "nombre": "Linterna LED",
+    "precio": 153.68,
+    "stock": 25
+  },
+  {
+    "id": 34,
+    "nombre": "Cuerda de nylon",
+    "precio": 27.58,
+    "stock": 28
+  },
+  {
+    "id": 35,
+    "nombre": "Cadena de acero",
+    "precio": 79.08,
+    "stock": 2
+  },
+  {
+    "id": 36,
+    "nombre": "Lima para metal",
+    "precio": 73.33,
+    "stock": 21
+  },
+  {
+    "id": 37,
+    "nombre": "Tenazas",
+    "precio": 184.06,
+    "stock": 24
+  },
+  {
+    "id": 38,
+    "nombre": "Sierra de calar",
+    "precio": 137.89,
+    "stock": 26
+  },
+  {
+    "id": 39,
+    "nombre": "Radial pequeña",
+    "precio": 115.21,
+    "stock": 38
+  },
+  {
+    "id": 40,
+    "nombre": "Bateria de litio",
+    "precio": 147.03,
+    "stock": 4
+  },
+  {
+    "id": 41,
+    "nombre": "Cargador universal",
+    "precio": 135.85,
+    "stock": 50
+  },
+  {
+    "id": 42,
+    "nombre": "Set de llaves Allen",
+    "precio": 78.69,
+    "stock": 19
+  },
+  {
+    "id": 43,
+    "nombre": "Grapadora industrial",
+    "precio": 68.82,
+    "stock": 9
+  },
+  {
+    "id": 44,
+    "nombre": "Grapas para pistola",
+    "precio": 99.91,
+    "stock": 11
+  },
+  {
+    "id": 45,
+    "nombre": "Soldador de estaño",
+    "precio": 134.27,
+    "stock": 44
+  },
+  {
+    "id": 46,
+    "nombre": "Estaño para soldar",
+    "precio": 152.83,
+    "stock": 15
+  },
+  {
+    "id": 47,
+    "nombre": "Flux para soldadura",
+    "precio": 107.9,
+    "stock": 5
+  },
+  {
+    "id": 48,
+    "nombre": "Tester digital",
+    "precio": 26.79,
+    "stock": 19
+  },
+  {
+    "id": 49,
+    "nombre": "Cable eléctrico",
+    "precio": 157.69,
+    "stock": 15
+  },
+  {
+    "id": 50,
+    "nombre": "Caja de herramientas",
+    "precio": 42.21,
+    "stock": 46
+  },
+  {
+    "id": 51,
+    "nombre": "Organizador de tornillos",
+    "precio": 171.25,
+    "stock": 48
+  },
+  {
+    "id": 52,
+    "nombre": "Juego de brocas",
+    "precio": 122.63,
+    "stock": 2
+  },
+  {
+    "id": 53,
+    "nombre": "Mordaza de presión",
+    "precio": 61.84,
+    "stock": 24
+  },
+  {
+    "id": 54,
+    "nombre": "Cincel para madera",
+    "precio": 123.75,
+    "stock": 24
+  },
+  {
+    "id": 55,
+    "nombre": "Aceite lubricante",
+    "precio": 133.17,
+    "stock": 46
+  },
+  {
+    "id": 56,
+    "nombre": "Grasa multiusos",
+    "precio": 106.5,
+    "stock": 49
+  },
+  {
+    "id": 57,
+    "nombre": "Spray anticorrosión",
+    "precio": 54.5,
+    "stock": 38
+  },
+  {
+    "id": 58,
+    "nombre": "Removedor de óxido",
+    "precio": 41.36,
+    "stock": 39
+  },
+  {
+    "id": 59,
+    "nombre": "Sellador de roscas",
+    "precio": 62.14,
+    "stock": 40
+  },
+  {
+    "id": 60,
+    "nombre": "Mascarilla FFP2",
+    "precio": 178.92,
+    "stock": 6
+  },
+  {
+    "id": 61,
+    "nombre": "Zapatos de seguridad",
+    "precio": 192.36,
+    "stock": 47
+  },
+  {
+    "id": 62,
+    "nombre": "Chaleco reflectante",
+    "precio": 133.44,
+    "stock": 34
+  },
+  {
+    "id": 63,
+    "nombre": "Señal de peligro",
+    "precio": 194.58,
+    "stock": 12
+  },
+  {
+    "id": 64,
+    "nombre": "Cono de señalización",
+    "precio": 101.5,
+    "stock": 17
+  },
+  {
+    "id": 65,
+    "nombre": "Barra de demolición",
+    "precio": 124.07,
+    "stock": 38
+  },
+  {
+    "id": 66,
+    "nombre": "Palanca",
+    "precio": 162.08,
+    "stock": 41
+  },
+  {
+    "id": 67,
+    "nombre": "Espátula",
+    "precio": 21.66,
+    "stock": 14
+  },
+  {
+    "id": 68,
+    "nombre": "Llave para tubos",
+    "precio": 95.07,
+    "stock": 13
+  },
+  {
+    "id": 69,
+    "nombre": "Abrazadera",
+    "precio": 73.59,
+    "stock": 0
+  },
+  {
+    "id": 70,
+    "nombre": "Manguera de agua",
+    "precio": 107.25,
+    "stock": 1
+  },
+  {
+    "id": 71,
+    "nombre": "Regadera de jardín",
+    "precio": 109.71,
+    "stock": 4
+  },
+  {
+    "id": 72,
+    "nombre": "Bomba de inflado",
+    "precio": 136.36,
+    "stock": 34
+  },
+  {
+    "id": 73,
+    "nombre": "Inflador eléctrico",
+    "precio": 139.75,
+    "stock": 26
+  },
+  {
+    "id": 74,
+    "nombre": "Foco de trabajo",
+    "precio": 50.36,
+    "stock": 12
+  },
+  {
+    "id": 75,
+    "nombre": "Extensión eléctrica",
+    "precio": 30.62,
+    "stock": 34
+  },
+  {
+    "id": 76,
+    "nombre": "Timbre inalámbrico",
+    "precio": 143.32,
+    "stock": 26
+  },
+  {
+    "id": 77,
+    "nombre": "Enchufe de pared",
+    "precio": 54.17,
+    "stock": 18
+  },
+  {
+    "id": 78,
+    "nombre": "Interruptor de luz",
+    "precio": 177.09,
+    "stock": 20
+  },
+  {
+    "id": 79,
+    "nombre": "Caja de registro",
+    "precio": 102.87,
+    "stock": 3
+  },
+  {
+    "id": 80,
+    "nombre": "Canaleta para cables",
+    "precio": 157.85,
+    "stock": 28
+  },
+  {
+    "id": 81,
+    "nombre": "Cinta de doble cara",
+    "precio": 99.3,
+    "stock": 6
+  },
+  {
+    "id": 82,
+    "nombre": "Tacos de pared",
+    "precio": 88.55,
+    "stock": 35
+  },
+  {
+    "id": 83,
+    "nombre": "Alcayatas",
+    "precio": 20.85,
+    "stock": 41
+  },
+  {
+    "id": 84,
+    "nombre": "Grapas para cable",
+    "precio": 126.26,
+    "stock": 0
+  },
+  {
+    "id": 85,
+    "nombre": "Clavos sin cabeza",
+    "precio": 84.53,
+    "stock": 31
+  },
+  {
+    "id": 86,
+    "nombre": "Tornillos autorroscantes",
+    "precio": 86,
+    "stock": 43
+  },
+  {
+    "id": 87,
+    "nombre": "Gancho para colgar",
+    "precio": 112.17,
+    "stock": 44
+  },
+  {
+    "id": 88,
+    "nombre": "Escobilla para inodoro",
+    "precio": 70.21,
+    "stock": 0
+  },
+  {
+    "id": 89,
+    "nombre": "Porta rollos",
+    "precio": 129.68,
+    "stock": 6
+  },
+  {
+    "id": 90,
+    "nombre": "Jabonera",
+    "precio": 115.07,
+    "stock": 28
+  },
+  {
+    "id": 91,
+    "nombre": "Espejo de baño",
+    "precio": 179.93,
+    "stock": 5
+  },
+  {
+    "id": 92,
+    "nombre": "Grifo de lavabo",
+    "precio": 83.55,
+    "stock": 7
+  },
+  {
+    "id": 93,
+    "nombre": "Cabezal de ducha",
+    "precio": 112.82,
+    "stock": 4
+  },
+  {
+    "id": 94,
+    "nombre": "Filtro de agua",
+    "precio": 155.62,
+    "stock": 9
+  },
+  {
+    "id": 95,
+    "nombre": "Sifón para lavabo",
+    "precio": 96.11,
+    "stock": 28
+  },
+  {
+    "id": 96,
+    "nombre": "Desatascador de tuberías",
+    "precio": 18.26,
+    "stock": 40
+  },
+  {
+    "id": 97,
+    "nombre": "Llave de paso",
+    "precio": 141.56,
+    "stock": 12
+  },
+  {
+    "id": 98,
+    "nombre": "Reductor de presión",
+    "precio": 97.56,
+    "stock": 42
+  },
+  {
+    "id": 99,
+    "nombre": "Manómetro",
+    "precio": 198.48,
+    "stock": 11
+  },
+  {
+    "id": 100,
+    "nombre": "Válvula de bola",
+    "precio": 39.95,
+    "stock": 25
+  }
+]

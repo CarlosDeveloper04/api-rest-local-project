@@ -1,11 +1,5 @@
 [
   {
-    "id": 2,
-    "nombre": "Destornillador Phillips",
-    "precio": 17.91,
-    "stock": 45
-  },
-  {
     "id": 3,
     "nombre": "Llave inglesa ajustable",
     "precio": 101.23,
@@ -279,7 +273,7 @@
     "id": 48,
     "nombre": "Tester digital",
     "precio": 26.79,
-    "stock": 19
+    "stock": 20
   },
   {
     "id": 49,

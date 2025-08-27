@@ -13,30 +13,17 @@ app.use(express.json())
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-// Ruta para LEER todos los productos (GET /api/productos)
-// app.get('/api/productos', async (req, res) => {
-//     const filePath = path.join(__dirname, 'inventario.json');
-//     try {
-//         const data = await fs.readFile(filePath, 'utf8');
-//         const inventario = JSON.parse(data);
-//         res.json(inventario);
-//     } catch (error) {
-//         console.error('Error al leer el inventario:', error);
-//         res.status(500).json({ error: 'Error interno del servidor.' });
-//     }
-// });
-
-
 // Ruta para LEER productos con paginación (GET /api/productos)
+
 app.get('/api/productos', async (req, res) => {
     const filePath = path.join(__dirname, 'inventario.json');
     try {
         const data = await fs.readFile(filePath, 'utf8');
         const inventario = JSON.parse(data);
 
-        // Parámetros de paginación
-        const limit = parseInt(req.query.limit) || 15; // Límite por defecto: 15
-        const page = parseInt(req.query.page) || 1;    // Página por defecto: 1
+        // Definimos los parámetros de paginación, Límite por defecto: 15, Página por defecto: 1
+        const limit = parseInt(req.query.limit) || 15; 
+        const page = parseInt(req.query.page) || 1;    
 
         const startIndex = (page - 1) * limit;
         const endIndex = page * limit;
@@ -96,11 +83,11 @@ app.put('/api/productos/:id', async (req, res) => {
         const data = await fs.readFile(filePath, 'utf8');
         let inventario = JSON.parse(data);
 
-        // Buscar el índice del producto a actualizar
+        // Buscamos el índice del producto a actualizar
         const index = inventario.findIndex(p => p.id === productoId);
 
         if (index !== -1) {
-            // Actualizar el producto en el array
+            // Actualizamos el producto en el array
             inventario[index] = { ...inventario[index], ...productoActualizado };
             await fs.writeFile(filePath, JSON.stringify(inventario, null, 2));
             res.status(200).json({ message: 'Producto actualizado con éxito.' });
@@ -125,9 +112,9 @@ app.delete('/api/productos/:id' , async (req, res) => {
         const data = await fs.readFile(filePath, 'utf8');
         const inventario = JSON.parse(data);
 
-        // Filtra el array para excluir el producto con el ID especificado
+        // Filtramos el array para excluir el producto con el ID especificado
         const inventarioActualizado = inventario.filter(producto => producto.id !== productoId);
-        // Si el inventario actualizado tiene menos elementos, significa que se encontró y eliminó el producto
+        // Comprobamos si el inventario actualizado tiene menos elementos, significa que se encontró y eliminó el producto
         if (inventarioActualizado.length < inventario.length) {
             await fs.writeFile(filePath, JSON.stringify(inventarioActualizado, null, 2));
             res.status(200).json({ message: 'Producto eliminado con éxito.' });

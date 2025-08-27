@@ -1,5 +1,4 @@
-
-import cargarProductos from "./cargarProductos.js"; // Importa la función para recargar la tabla
+import cargarProductos from "./cargarProductos.js"; 
 import logicaModal from "./logicaModal.js";
 
 
@@ -58,7 +57,6 @@ const manejarEventosDeFormulario = () => {
             formularioRegistro.dataset.mode = 'add';
             modalTitle.textContent = 'Registrar Nuevo Elemento';
             submitBtn.textContent = 'Guardar';
-            // Llama a la función para recargar la tabla después de agregar un producto
             cargarProductos();
             
       

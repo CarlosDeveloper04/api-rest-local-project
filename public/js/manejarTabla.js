@@ -1,4 +1,3 @@
-// manejarTabla.js
 import cargarProductos from "./cargarProductos.js";
 import logicaModal from "./logicaModal.js";
 
@@ -13,7 +12,8 @@ const manejarEventosDeTabla = () => {
     tableBody.addEventListener('click', async (e) => {
         const target = e.target;
         const row = target.closest('tr');
-        if (!row) return; // Salir si el clic no fue en una fila
+        // Salimos si el clic no fue en una fila
+        if (!row) return; 
 
         const productoId = row.dataset.id;
         
